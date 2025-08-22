@@ -8,6 +8,8 @@ A proof-of-concept CLI tool for ephemeral messaging between GitHub users. Think 
 
 **This is a proof-of-concept for educational purposes.** The code demonstrates the architecture and implementation of an ephemeral messaging system, but is not production-ready.
 
+**⚠️ Production note**: If you want to actually use this project or build something similar, don’t hard-code a GitHub client secret in the CLI. CLIs are public clients and can’t keep secrets. Instead, use GitHub’s Device Flow
+
 If you find this idea interesting and decide to deploy or build upon it, I'd appreciate credit for the original concept and implementation. Both the idea and code are freely shared here.
 
 ## The Idea
